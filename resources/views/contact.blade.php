@@ -6,7 +6,7 @@
         
         <div class="col-lg-7 p-md-4">
             <div class="card">
-                <div class="card-header"> <h3>Contacto</h3></div>
+                <div class="card-header"> <h3>Envie su consulta</h3></div>
             <div class="card-body">
  
                 <form class="rounded-0 flex-column" method="post" action="{{ route('contact') }}">

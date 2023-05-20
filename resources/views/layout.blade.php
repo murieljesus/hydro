@@ -14,18 +14,18 @@
 </head>
 <body class="bodys">
 <div class="d-flex flex-column my-auto">
-    <nav class="navbar shadow p-1 mb-5 rounded unorder">
-    <a class="navbar-brand butt" href="{{ route('index') }}">
+    <nav class="navbar p-1 mb-5 unorder">
+    <a class="navbar-brand buttons" href="{{ route('index') }}">
     <img src="img/hydro2.png" width="90" height="75" >
     </a>
         <ul class="nav navbar">
-            <li class="nav-item"><a class="nav-link butt"  href="{{ route('index') }}">Inicio</a>
+            <li class="nav-item"><a class="nav-link buttons"  href="{{ route('index') }}">Inicio</a>
             </li>
             @guest  
-            <li class="nav-item"> <a class="nav-link butt" href="{{ route('contact') }}">Contacto</a>
+            <li class="nav-item"> <a class="nav-link buttons" href="{{ route('contact') }}">Contacto</a>
             </li>
             <li class="nav-item"> 
-                <a class="nav-link butt" href="{{ route('about') }}">Nosotros</a>
+                <a class="nav-link buttons" href="{{ route('about') }}">Nosotros</a>
             </li>
             {{-- <li class="nav-item">
                 <a class="nav-link  butt" href="{{ route('login') }}">Login</a>
@@ -52,7 +52,7 @@
     <main>
         @yield('contenido')
     </main>
-        <footer class="foots " >
+        <footer class="hydro-footer" >
             <div class="container">
               <div class="row row-30">
                 <div class="col-md-4 col-xl-5">
